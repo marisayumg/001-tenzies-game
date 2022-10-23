@@ -1,12 +1,17 @@
 import "./App.css";
-import Intro from "./components/Intro";
+import logo from "./images/logo.svg";
+import Header from "./components/Header";
 import Game from "./components/Game";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Intro />
+      <Header />
       <Game />
+      {/* <aside>Themes</aside>
+      <aside>About</aside> */}
+      <Footer />
     </div>
   );
 }
